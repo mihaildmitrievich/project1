@@ -1,0 +1,67 @@
+
+
+@media (max-width: 1200px) {
+  .container {
+   max-width: 982px;
+  }
+    .social-media__picture {
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
+    .contact__textarea{
+        width:100%;
+    }
+    .reviews__content_center {
+        margin-left: 11%;
+        margin-right: 11%;
+    }
+
+ }
+
+    @media (max-width: 992px) {
+        .container {
+            max-width: 750px;
+        }
+        .heading-block-left{
+            margin-right: 180px;
+        }
+        .social-media__picture {
+            width: 100%;
+        }
+        .contact__textarea{
+            width:100%;
+        }
+        .reviews__content_center {
+            margin-left: 11%;
+            margin-right: 11%;
+        }
+
+    }
+    @media (max-width: 762px) {
+        .container {
+            max-width: 600px;
+        }
+        .pricing-container{
+            flex-direction: column;
+        }
+        .review__content{
+            width: 100%;
+        }
+        .review{
+            flex-direction: column;
+        }
+        .welcome_overlay{
+            flex-direction: column-reverse;
+        }
+        .contact__textarea{
+            width:100%;
+        }
+        .reviews__content_center {
+            margin-left: 11%;
+            margin-right: 11%;
+        }
+
+
+    }
